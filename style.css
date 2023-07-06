@@ -299,7 +299,8 @@
     font-size:1.75rem;
   }
   /* End portfolio.css */
-  /* contact_with_me.css */  
+  /* contact_with_me.css */
+
   section.contact .contact-me::after{
     content:"";
     display:block;
@@ -334,7 +335,7 @@
     padding:1rem;
   }
   /* form-group 사이 간격 지정 */
-section.contact .contact-me .right .form-group{
+  section.contact .contact-me .right .form-group{
     margin-bottom:1.25rem;
   }
   /* label 태그가 인라인 성격이어서 외부 여백을 적용하기 위해 block으로 변경 */
@@ -363,7 +364,7 @@ section.contact .contact-me .right .form-group{
     border:1px solid #ccc;
     border-radius:10px;
   }
-  /* textarea 요소에 커서가 활성화가 되면 파란색 테두리와 그림자 효과 추가 */
+  /* textarea 요소에 커서 활성화가 되면 파란색 테두리와 그림자 효과 추가 */
   section.contact .contact-me .right .form-group textarea:focus{
     outline:none;
     border:1px solid #719ECE;
